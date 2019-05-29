@@ -1,5 +1,6 @@
 package com.github.remcalmels;
 
+import com.github.remcalmels.config.TypeProperties;
 import com.github.remcalmels.exception.SheepException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

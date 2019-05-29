@@ -1,4 +1,4 @@
-package com.github.remcalmels;
+package com.github.remcalmels.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

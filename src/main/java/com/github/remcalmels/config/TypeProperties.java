@@ -1,4 +1,4 @@
-package com.github.remcalmels;
+package com.github.remcalmels.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,17 +6,16 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource("classpath:type.properties")
 @Data
 public class TypeProperties {
 
-    @Value("${boolean}")
+    @Value("${sheep.types.boolean:false}")
     private Boolean booleanValue;
 
-    @Value("${integer}")
+    @Value("${sheep.types.integer:1}")
     private Integer integerValue;
 
-    @Value("${long}")
+    @Value("${sheep.types.long:123}")
     private Long longValue;
 
     public Object getValue(Class type) {

@@ -1,5 +1,7 @@
 package com.github.remcalmels;
 
+import com.github.remcalmels.config.SheepFactoryConfig;
+import com.github.remcalmels.config.TypeProperties;
 import com.github.remcalmels.exception.SheepException;
 import org.junit.Assert;
 import org.junit.Test;
