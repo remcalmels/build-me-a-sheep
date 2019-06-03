@@ -2,3 +2,5 @@
 .idea
 target
 .env
+pom.xml.releaseBackup
+release.properties
