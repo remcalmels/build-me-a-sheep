@@ -30,10 +30,10 @@ public class SheepFactory {
      * Build a "sheep" (valued object) from the class specified in parameters
      *
      * The factory handles the following types :
-     * String -> valued with the class attribute name
-     * Boolean -> valued from properties file
-     * Integer -> valued from properties file
-     * Long -> valued from properties file
+     * String : valued with the class attribute name
+     * Boolean : valued from properties file
+     * Integer : valued from properties file
+     * Long : valued from properties file
      *
      * @param source class
      * @return an optional which contains a class instance, valued with default values
