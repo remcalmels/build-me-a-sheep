@@ -1,0 +1,5 @@
+sheep:
+  types:
+    boolean: true
+    integer: 2
+    long: 5678
