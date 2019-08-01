@@ -14,6 +14,19 @@ git merge develop
 git commit -m "master : git merge with develop"
 ```
 
+- add distributionManagement section :
+```shell
+<distributionManagement>
+    <repository>
+        <uniqueVersion>false</uniqueVersion>
+        <id>repository</id>
+        <name>Corporate Repository</name>
+        <url>file:///home/remicalmels/.m2</url>
+        <layout>default</layout>
+    </repository>
+</distributionManagement>
+```
+
 - start releasing :
 
 ```shell
