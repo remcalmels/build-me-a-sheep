@@ -4,7 +4,7 @@
 
     <groupId>build-me-a-sheep</groupId>
     <artifactId>build-me-a-sheep</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.1</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -39,16 +39,6 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <uniqueVersion>false</uniqueVersion>
-            <id>repository</id>
-            <name>Corporate Repository</name>
-            <url>file:///home/remicalmels/.m2</url>
-            <layout>default</layout>
-        </repository>
-    </distributionManagement>
-    
     <build>
         <plugins>
             <plugin>
