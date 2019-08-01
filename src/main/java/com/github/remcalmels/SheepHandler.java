@@ -18,7 +18,7 @@ import java.util.Optional;
  */
 @Component
 @Slf4j
-public class SheepFactory {
+public class SheepHandler {
 
     @Autowired
     private MessageSource messageSource;

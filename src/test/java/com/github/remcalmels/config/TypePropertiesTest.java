@@ -11,7 +11,7 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration(classes = SheepFactoryConfig.class, initializers = ConfigFileApplicationContextInitializer.class)
+@ContextConfiguration(classes = SheepHandlerConfig.class, initializers = ConfigFileApplicationContextInitializer.class)
 @ActiveProfiles("test")
 public class TypePropertiesTest {
 

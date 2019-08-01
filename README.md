@@ -17,7 +17,7 @@ Just call **build** method on **SheepFactory** :
 *Example :*
 
 ```java
-FooBar fooBar = (FooBar) sheepFactory.build(FooBar.class).get();
+Foo foo = (Foo) sheepFactory.build(Foo.class).get();
 ```
 
 > *Notes :*
