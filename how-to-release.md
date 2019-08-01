@@ -21,6 +21,7 @@ mvn --batch-mode release:prepare release:perform
 ```
 
 - change the master pom.xml version to specify the **release version** (fe. 1.0)
+- commit
 - push all changes to GitHub :
 
 ```shell
